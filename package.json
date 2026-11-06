@@ -1,0 +1,40 @@
+{
+  "name": "scinexa-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "authors": [
+    "Islam",
+    "Yaseen"
+  ],
+  "project": "ISEF 2026 — SciNexa Interactive 3D Science Labs",
+  "fingerprint": "b35dcc2b2495508cd11d6e6294915f7211adfc93ce1a2188d81858b9cd38123f",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@clerk/clerk-react": "^5.61.11",
+    "@types/three": "^0.186.0",
+    "canvas-confetti": "^1.9.4",
+    "lucide-react": "^1.55.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.5",
+    "three": "^0.186.1",
+    "three-stdlib": "^2.36.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3"
+  }
+}
